@@ -1,0 +1,16 @@
+ALGORITHM insertionSort
+VAR
+    tab [] : array_name : ARRAY_OF INTEGER[5];
+    i , j : INTEGER
+    element : INTEGER;
+
+BEGIN
+    FOR i FROM 0 TO 5   DO
+        element := tab[i]
+        FOR  i>0 and tab[i]>element DO
+        tab[i] = tab[i-1]
+
+        END_FOR
+        tab[j] := element
+    read tab[i] + tab[j]
+END
